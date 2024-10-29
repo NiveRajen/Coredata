@@ -13,7 +13,7 @@ final class CoreDataHelper {
     static let shared = CoreDataHelper()
     private init() { }
     
-    // Core Data stack
+    //Use NSPersistentContainer to manage the Core Data stack, including the SQLite store.
         lazy var persistentContainer: NSPersistentContainer = {
             let container = NSPersistentContainer(name: "CoreDataModel")
             container.loadPersistentStores(completionHandler: { (storeDescription, error) in
