@@ -27,11 +27,11 @@ Core Data is a powerful framework provided by Apple for managing an object graph
  
 Core Data excels at managing complex object graphs with multiple entities, attributes, and relationships. 
 
-Reasons to choose Core Data
+### Reasons to choose Core Data
 
 I could think in mostly three big reasons to choose Core Data:
-Object-oriented approach: Core Data allows you to work with objects instead of raw SQL, making it more suitable for complex data models and easier to integrate into your app’s code. Everything is an object, the queries, the results, the models, etc.
-Advanced features: Core Data comes with built-in support for features like input validation, data model versioning, change tracking, and more.
+**Object-oriented approach:** Core Data allows you to work with objects instead of raw SQL, making it more suitable for complex data models and easier to integrate into your app’s code. Everything is an object, the queries, the results, the models, etc.
+**Advanced features:** Core Data comes with built-in support for features like input validation, data model versioning, change tracking, and more.
 Seamless integration with Apple’s ecosystem: As an Apple framework, Core Data is fully integrated with Swift and other iOS development tools, offering a more seamless experience.
 
 
